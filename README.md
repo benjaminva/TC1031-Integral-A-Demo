@@ -27,10 +27,14 @@ por orden alfabético o por cantidad  de gramaje
 Uso una lista doblemente encadenada para regristrar las medicinas porque quiero acceder rápidamente a la registrada más recientemente (head), 
 pero también necesito consultar cuál fue la primera que se agrego (tail), cada medicina es un objeto que contiene (...   ) 
 los elementos se pueden insertar y eliminar usando la lista como se muestra en el código en las funciones 
-agrega medicina, elimina medicina, y obten gramaje, que se encuentran en el archivo medicinas.h en las lienas 37, 65 y 74 respectivamente. 
+agrega medicina, elimina medicina, y obten gramaje, que se encuentran en el archivo medicinas.h en las líneas 55, 80 y 124 respectivamente.
 
 
 ### Selecciona un algoritmo de ordenamiento adecuado al problema
+
+Para este problema utilice un algoritmo de tipo merge sort, para poder organizar las medicinas por orden alfabético ascendente y despues descendente
+use merge sort porque es rápido en la mayoría de los casos y porque es poco probable que me encuentre son su peor caso, ya que las lista inicial siempre está desordenada.
+Las fuciones donde se puede ver es en ordena medicinas ascendente y ordena medicina descendente en el archivo reportes.h las líneas 50 y 78.
 
 ### Usa un árbol adecuado para resolver un problema
 
